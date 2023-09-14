@@ -1,6 +1,7 @@
+from random import randint
+
 import allure
 import pytest
-from random import randint
 
 
 @allure.description("Test add a one product to cart")

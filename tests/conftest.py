@@ -3,12 +3,12 @@ from logging import getLogger
 import pytest
 from selenium import webdriver
 
-from pages.login_page import LoginPage
 from pages.main_page import MainPage
 from pages.cart_page import CartPage
-from pages.client_information_page import ClientInformationPage
-from pages.payment_page import PaymentPage
+from pages.login_page import LoginPage
 from pages.finish_page import FinishPage
+from pages.payment_page import PaymentPage
+from pages.client_information_page import ClientInformationPage
 
 
 logger = getLogger(__name__)

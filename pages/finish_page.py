@@ -1,5 +1,6 @@
-import allure
 from logging import getLogger
+
+import allure
 
 from base.page import Page
 

@@ -1,10 +1,10 @@
-from faker import Faker
-import allure
 from logging import getLogger
 
+import allure
+from faker import Faker
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
 
 from base.page import Page
 
