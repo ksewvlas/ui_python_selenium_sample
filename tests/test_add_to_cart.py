@@ -27,7 +27,7 @@ def test_add_one_product_to_cart(login_and_goto_main, cart_page, product_index):
     ), f'The product prices are not equals: {product_price} != {cart_item_price}'
 
 
-@allure.description("Test add a one product to cart")
+@allure.description("Test add some products to cart")
 @pytest.mark.parametrize('quantity_products', [randint(1, 6)])
 def test_add_some_products_to_cart(login_and_goto_main, cart_page, quantity_products):
     added_product_indexes = login_and_goto_main.select_random_products(
